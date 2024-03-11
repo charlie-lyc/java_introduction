@@ -6,12 +6,17 @@ public class Comp2 {
         String str1 = "문자열1";
         String str2 = "문자열2";
 
-        boolean result1 = "hello".equals("hello"); //리터럴 비교
-        boolean result2 = str1.equals("문자열1");//문자열 변수, 리터럴 비교
-        boolean result3 = str1.equals(str2);//문자열 변수 비교
+        boolean result1 = "hello".equals("hello"); //"리터럴" vs "리터럴" 비교
+        boolean result2 = str1.equals("문자열1");   //문자열 변수 vs "리터럴" 비교
+        boolean result3 = str1.equals(str2);       //문자열 변수 vs 문자열 변수 비교
 
         System.out.println(result1);
         System.out.println(result2);
         System.out.println(result3);
+
+        /**
+         * 아래와 같이 사용하는 것은 지양함
+         */
+        // System.out.println("hello" == "hello");
     }
 }

@@ -12,7 +12,7 @@ public class CommentJava {
         
         /** 자바란?
          * $ javac HelloJava.java // 컴파일(바이트 코드로 변환)하여 .class 파일 생성
-         * $ java HelloJava       // 바이트 코드를 실행(Java Virtual Machine 에서 실행)
+         * $ java HelloJava.class // Java Virtual Machine에서 바이트 코드를 실행
          */
     }
 }

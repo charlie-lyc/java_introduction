@@ -14,5 +14,14 @@ public class Var7 {
         System.out.println(c);
         System.out.println(d);
         System.out.println(e);
+
+        /**
+         * Literal(리터럴) : 코드에서 개발자가 직접 적은 고정된 값을 가리키는 프로그래밍 용어
+         * 100          //정수 리터럴
+         * 10.5         //실수 리터럴
+         * true         //불리언 리터럴
+         * 'A'          //문자 하나 리터럴
+         * "Hello Java" //문자열 리터럴
+         */
     }
 }

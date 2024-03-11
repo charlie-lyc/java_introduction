@@ -19,12 +19,27 @@ public class Operator1 {
         int multi = a * b;
         System.out.println("a * b = " + multi);
 
-        // 나눗셈
+        // 나눗셈 [몫]
         int div = a / b;
-        System.out.println("a / b = " + div);
+        System.out.println("a / b = " + div); // 2
 
-        // 나머지
+        // [나머지]
         int mod = a % b;
         System.out.println("a % b = " + mod);
+
+        /**
+         * Reference1
+         */
+        double d = 5;
+        double e = 2;
+        double result1 = d / e;
+        System.out.println("a / b = " + result1); // 2.5
+
+        /**
+         * Reference2
+         */
+        int z = 0;
+        // int result2 = a / z; // 에러 발생 Exception in thread "main" java.lang.ArithmeticException: / by zero
+
     }
 }
