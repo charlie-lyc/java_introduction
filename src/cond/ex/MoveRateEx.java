@@ -3,7 +3,10 @@ package cond.ex;
 public class MoveRateEx {
 
     public static void main(String[] args) {
-        double rating = 7.1;
+        double rating = 7.0;
+        //double rating = 7.5;
+        //double rating = 8.3;
+        //double rating = 9.1;
 
         if (rating <= 9) {
             System.out.println("'어바웃타임'을 추천합니다.");

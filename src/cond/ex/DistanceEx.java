@@ -3,7 +3,10 @@ package cond.ex;
 public class DistanceEx {
 
     public static void main(String[] args) {
-        int distance = 80;
+        int distance = 1;
+        //int distance = 5;
+        //int distance = 25;
+        //int distance = 150;
 
         if (distance <= 1) {
             System.out.println("도보를 이용하세요.");
