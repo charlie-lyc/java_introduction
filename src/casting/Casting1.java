@@ -3,6 +3,9 @@ package casting;
 public class Casting1 {
 
     public static void main(String[] args) {
+        /**
+         * 자동 형변환, 묵시적 형변환
+         */
         int intValue = 10;
         long longValue;
         double doubleValue;

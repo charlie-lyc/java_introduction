@@ -6,7 +6,7 @@ public class Switch4 {
         int grade = 2;
 
         /**
-         * Java 14
+         * Java 14에서 처음 도입
          */
         int coupon = switch (grade) {
             case 1 -> 1000;
