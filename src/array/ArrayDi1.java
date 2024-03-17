@@ -13,7 +13,7 @@ public class ArrayDi1 {
         arr[1][1] = 5; //1행, 1열
         arr[1][2] = 6; //0행, 2열
 
-        for (int row = 0; row < 2; row++) {
+        for (int row = 0; row < 2; row ++) {
             System.out.print(arr[row][0] + " "); //0열 출력
             System.out.print(arr[row][1] + " "); //1열 출력
             System.out.print(arr[row][2] + " "); //2열 출력
