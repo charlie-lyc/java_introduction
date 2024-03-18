@@ -13,22 +13,18 @@ public class ProductAdminEx {
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.print("1. 상품 등록 | 2. 상품 목록 | 3. 종료\n메뉴를 선택하세요:");
-            int menu = scanner.nextInt();
-            scanner.nextLine();
+            int menu = scanner.nextInt(); // ex) "3\n" 에서 "3"만 취하고, "\n"은 남아 있음
+            scanner.nextLine(); // => "\n" 을 마저 취함으로써 빈 문자열 입력을 막음
 
             if (menu == 1) {
-
                 if (productCount >= maxProducts) {
                     System.out.println("더 이상 상품을 등록할 수 없습니다.");
                     continue;
                 }
-
                 System.out.print("상품 이름을 입력하세요:");
                 productNames[productCount] = scanner.nextLine();
-
                 System.out.print("상품 가격을 입력하세요:");
                 productPrices[productCount] = scanner.nextInt();
-
                 productCount++;
             } else if (menu == 2) {
                 if (productCount == 0) {
